@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mapa_web</title>
+        <meta charset="UTF-8">
+        <!-- Agrega la biblioteca JavaScript Openlayers -->
+        <script src='https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js'></script>
+        <!-- Hojas de estilo externas -->
+        <link href='https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css' rel='stylesheet' />
+        <!-- Hoja de estilo creada -->
+        <link rel="stylesheet" href="./css/styles.css">
+        <!-- Agrega el control de capas -->
+        <script src="./ol3-layerswitcher-master/src/ol3-layerswitcher.js"></script>
+        <link rel="stylesheet" href="./ol3-layerswitcher-master/src/ol3-layerswitcher.css">
+        <!-- Agrega la libreria de proyecciones -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.5.0/proj4-src.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.5.0/proj4.js"></script>
+ 
+    </head>
+
+    <body>
+        <h1 align="center">Puntos de interés de la Dehesa de Navalcarbón en Las Rozas de Madrid</h1>
+        <p align="center">En esta web se van a describir tres puntos de interés patrimonial existentes en la Dehesa de Navalcarbón en el municipio madrileño de Las Rozas de Madrid.
+        </p>
+    <hr>
+        <div id= 'listado_puntos'>
+
+                    <h1>Listado de puntos de interés</h1>
+            
+                    <ol>
+            
+                        <li>Canal de Guadarrama</li>
+                        <li>Fortines de la Batalla de la Niebla</li>
+                        <li>Encina Singular</li>
+                        
+                    </ol>
+            
+                </div>
+
+
+                <div id='map'></div>
+
+                <!-- Agrega el archivo JavaScript creado con la vista y las capas del mapa -->
+                <script src="./js/map.js"></script>
+
+                 </div>
+        
+
+
+                 <div>
+        <h1>Imágenes</h1> 
+
+        
+            <h2>1. Canal de Guadarrama</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Canal_del_Guadarrama_en_Navalcarbon_1.jpg/400px-Canal_del_Guadarrama_en_Navalcarbon_1.jpg" alt="Canal">
+            <a href="https://espanafascinante.com/lugar-para-visitar/que-ver-en-madrid/el-canal-del-guadarrama-cuando-intentamos-llegar-en-barco-a-madrid/">Pulsa para info</a>
+            
+        </div>
+        
+        <div>
+             <h2>2. Fortines de la Batalla de la Niebla</h2>
+             <img src="https://elguadarramista.files.wordpress.com/2016/01/ruta_navalcarbon-e1453122263390.png" alt="fortin">
+             <a href="https://castillosdelolvido.com/fortines-de-las-rozas-dehesa-de-navalcarbon/">Pulsa para info</a>
+        </div>
+        <div>
+            <h2>3. Encina singular</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTvpGBAP4RQ5i0UYxoiDwI4fxjrByo6fMrZrQ&usqp=CAU" alt="encina">
+        <a href="https://arbolessingularesdelacomunidad.jimdofree.com/por-municipios/madrid/casa-de-campo/">Pulsa para info</a>
+        </div>
+
+        <h1>Formulario de contacto</h1>
+        <div id= 'Formulario'>
+        <form>
+            <label>Nombre</label>
+            <input type="text">
+            <label>Apellidos</label>
+            <input type="text">
+            <label>Mail</label>
+            <input type="email">
+            <label>Dirección</label>
+            <input type="text">
+            <label>Barrio</label>
+            <select>
+                <option value="lamarazuela">La Marazuela</option>
+                <option value="lasmatas">Las Matas</option>
+                <option value="lasrozas">Las Rozas</option>
+                <option value="monterrozas">Monterrozas</option>
+
+            </select>
+
+            <label>Sexo</label>
+            <select>
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+            </select>
+
+            <label>Observaciones</label>
+            <input type="text">
+ 
+         <input type="submit" value="Enviar">
+ 
+        </form>
+        </div>
+
+    </body>
+    </html>

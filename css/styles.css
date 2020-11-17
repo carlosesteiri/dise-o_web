@@ -1,0 +1,22 @@
+#listado_puntos { 
+  width: 30%;
+  border-style: solid;
+  height: 325px;
+  float: left;
+  margin: 100px;
+}
+
+#map { 
+  width: 30%;
+  margin: 100px;
+  float: left;
+  height: 325px;
+  border-style: solid;
+}
+ 
+#Formulario { 
+  width: 20%;
+  float: left;
+  height: 175px;
+  border-style: solid;
+}
