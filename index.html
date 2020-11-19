@@ -22,85 +22,84 @@
         <h1 align="center">Puntos de interés de la Dehesa de Navalcarbón en Las Rozas de Madrid</h1>
         <p align="center">En esta web se van a describir tres puntos de interés patrimonial existentes en la Dehesa de Navalcarbón en el municipio madrileño de Las Rozas de Madrid.
         </p>
-    <hr>
-        <div id= 'listado_puntos'>
-
-                    <h1>Listado de puntos de interés</h1>
-            
-                    <ol>
-            
-                        <li>Canal de Guadarrama</li>
-                        <li>Fortines de la Batalla de la Niebla</li>
-                        <li>Encina Singular</li>
-                        
-                    </ol>
-            
-                </div>
+    
+    <div id='map'></div>
 
 
-                <div id='map'></div>
+        <div class="flex_container">
+            <div class="flex-item">
+                <h3>1. Canal de Guadarrama</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Canal_del_Guadarrama_en_Navalcarbon_1.jpg/400px-Canal_del_Guadarrama_en_Navalcarbon_1.jpg"style="width: 300px; height: 200px;" alt="Canal">
+                <a href="https://espanafascinante.com/lugar-para-visitar/que-ver-en-madrid/el-canal-del-guadarrama-cuando-intentamos-llegar-en-barco-a-madrid/">
+                   <p>Información sobre el Canal de Guadarrama</p> </a>
+    
+            </div>
 
-                <!-- Agrega el archivo JavaScript creado con la vista y las capas del mapa -->
-                <script src="./js/map.js"></script>
+            <div class="flex-item">
+                <h3>2. Fortines Batalla de la Niebla</h3>
+                <img src="https://elguadarramista.files.wordpress.com/2016/01/ruta_navalcarbon-e1453122263390.png" style="width: 300px; height: 200px;"alt="fortin">
+                <a href="https://castillosdelolvido.com/fortines-de-las-rozas-dehesa-de-navalcarbon/">
+                   <p>Información sobre los Fortines de la Batalla de la Niebla</p> </a>
+            </div>
+                
+            <div class="flex-item">
+                <h3>3. Encina singular</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTvpGBAP4RQ5i0UYxoiDwI4fxjrByo6fMrZrQ&usqp=CAU"style="width: 300px; height: 200px;" alt="encina">
+                <a href="https://arbolessingularesdelacomunidad.jimdofree.com/por-municipios/madrid/casa-de-campo/">
+                    <p>Información sobre la encina singular</p> </a>
+            </div>
+                
 
-                 </div>
+        </div>
+
+
+        <div class="contenedor2">
+            <div class="flex-item2">
+
+                <h3 align="center">Formulario de contacto</h3>
+                
+                <form>
+                    <label>Nombre</label>
+                    <input type="text">
+                    <label>Apellidos</label>
+                    <input type="text">
+                    <label>Sexo</label>
+                    <select>
+                        <option value="hombre">Hombre</option>
+                        <option value="mujer">Mujer</option>
+                    </select>
+                    <label>Email</label>
+                    <input type="email">
+                    <label>Dirección</label>
+                    <input type="text">
+                    <label>Barrio</label>
+                    <select>
+                        <option value="lamarazuela">La Marazuela</option>
+                        <option value="lasmatas">Las Matas</option>
+                        <option value="lasrozas">Las Rozas</option>
+                        <option value="monterrozas">Monterrozas</option>
         
-
-
-                 <div>
-        <h1>Imágenes</h1> 
-
+                    </select>
         
-            <h2>1. Canal de Guadarrama</h2>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Canal_del_Guadarrama_en_Navalcarbon_1.jpg/400px-Canal_del_Guadarrama_en_Navalcarbon_1.jpg" alt="Canal">
-            <a href="https://espanafascinante.com/lugar-para-visitar/que-ver-en-madrid/el-canal-del-guadarrama-cuando-intentamos-llegar-en-barco-a-madrid/">Pulsa para info</a>
-            
-        </div>
-        
-        <div>
-             <h2>2. Fortines de la Batalla de la Niebla</h2>
-             <img src="https://elguadarramista.files.wordpress.com/2016/01/ruta_navalcarbon-e1453122263390.png" alt="fortin">
-             <a href="https://castillosdelolvido.com/fortines-de-las-rozas-dehesa-de-navalcarbon/">Pulsa para info</a>
-        </div>
-        <div>
-            <h2>3. Encina singular</h2>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTvpGBAP4RQ5i0UYxoiDwI4fxjrByo6fMrZrQ&usqp=CAU" alt="encina">
-        <a href="https://arbolessingularesdelacomunidad.jimdofree.com/por-municipios/madrid/casa-de-campo/">Pulsa para info</a>
-        </div>
+                    <label>Observaciones</label>
+                    <input type="text">
+         
+                 <input type="submit" value="Enviar">
+         
+                </form>
 
-        <h1>Formulario de contacto</h1>
-        <div id= 'Formulario'>
-        <form>
-            <label>Nombre</label>
-            <input type="text">
-            <label>Apellidos</label>
-            <input type="text">
-            <label>Mail</label>
-            <input type="email">
-            <label>Dirección</label>
-            <input type="text">
-            <label>Barrio</label>
-            <select>
-                <option value="lamarazuela">La Marazuela</option>
-                <option value="lasmatas">Las Matas</option>
-                <option value="lasrozas">Las Rozas</option>
-                <option value="monterrozas">Monterrozas</option>
 
-            </select>
 
-            <label>Sexo</label>
-            <select>
-                <option value="hombre">Hombre</option>
-                <option value="mujer">Mujer</option>
-            </select>
+            </div>
 
-            <label>Observaciones</label>
-            <input type="text">
- 
-         <input type="submit" value="Enviar">
- 
-        </form>
-        </div>
+
+
+       
+
+    <!-- Agrega el archivo JavaScript creado con la vista y las capas del mapa -->
+    <script src="./js/map.js"></script>
+
+
 
     </body>
     </html>
